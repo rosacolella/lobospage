@@ -1,0 +1,160 @@
+color: red;
+}
+
+
+
+/*
+p {
+   
+width: 350px;
+   
+border: 1px black solid;
+   
+position: fixed;
+
+}
+
+*/
+
+
+span {
+   
+background: green;
+   
+color:white;
+   
+position: relative;
+   
+top: 150px;
+   
+left: 50px;
+
+}
+
+
+
+
+img.left {
+   
+float: left;
+   
+width: 500px;
+   
+margin-left: 10px;
+
+}
+
+
+
+
+
+
+img.right {
+   
+float: right;
+   
+width: 500px;
+   
+margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+div.green_bottle {
+    
+border-radius:100px 100px 0px 0px;
+    
+background-color: #5533FF;
+    
+color: white;
+
+font-size: 20px;
+
+font-family:calibri;
+    
+padding: 50px;
+
+overflow:hidden;
+
+background: linear-gradient( black, #5533FF);
+
+ transition: width 3s;
+
+ -webkit-transition: width 3s;
+}
+
+
+
+div:hover {
+    
+width: 250px;
+
+}
+
+
+
+
+div.blue_bottle {
+    
+border-radius:0px 0px 100px 100px;
+    
+background-color: darkblue;
+    
+color: white;
+
+font-size: 20px;
+
+font-family:calibri;
+    
+padding: 50px;
+
+overflow:hidden;
+
+background: linear-gradient( #5533FF, Black);
+}
+
+
+
+
+p::-moz-selection {
+    background: darkblue;
+    color: darkblue;
+}
+
+p::selection {
+    background: darkblue;
+    color: darkblue;
+}
+
+
+@font-face {
+    font-family: Delicious; 
+    src: url("http://www.sololearn.com/uploads/fonts/Delicious-Roman.otf"); 
+} 
+@font-face { 
+    font-family: Delicious; 
+    font-weight: bold; 
+    src: url("http://www.sololearn.com/uploads/fonts/Delicious-Bold.otf"); 
+}
+h1{
+    font-family: Delicious, sans-serif; 
+    color:white;
+}
+
+
+
+body{
+       
+background: -moz-radial-gradient(circle, white 40%, lightblue50%, darkblue 70%); 
+    
+background: -webkit-radial-gradient(circle, white 40%, lightblue 50%, darkblue 70%); 
+    
+background: -ms-radial-gradient(circle, white 40%, lightblue 50%, darkblue 70%); 
+
+}

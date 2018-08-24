@@ -80,20 +80,20 @@ font-family:calibri;
     
 padding: 50px;
 
-overflow:hidden;
+overflow:hidden; 
 
 background: linear-gradient( black, #5533FF);
 
- transition: width 3s;
+ transition: width 5s; 
 
- -webkit-transition: width 3s;
+ -webkit-transition: width 5s; 
 }
 
 
 
 div:hover {
     
-width: 250px;
+width: 700px;
 
 }
 

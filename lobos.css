@@ -2,8 +2,6 @@ color: red;
 }
 
 
-
-/*
 p {
    
 width: 350px;
@@ -13,8 +11,6 @@ border: 1px black solid;
 position: fixed;
 
 }
-
-*/
 
 
 span {
@@ -32,8 +28,6 @@ left: 50px;
 }
 
 
-
-
 img.left {
    
 float: left;
@@ -45,10 +39,6 @@ margin-left: 10px;
 }
 
 
-
-
-
-
 img.right {
    
 float: right;
@@ -58,12 +48,6 @@ width: 500px;
 margin-right: 10px;
 
 }
-
-
-
-
-
-
 
 
 div.green_bottle {
@@ -99,7 +83,6 @@ width: 700px;
 
 
 
-
 div.blue_bottle {
     
 border-radius:0px 0px 100px 100px;
@@ -121,40 +104,19 @@ background: linear-gradient( #5533FF, Black);
 
 
 
-
-p::-moz-selection {
-    background: darkblue;
-    color: darkblue;
+h1 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 100px;
+  color: white;
+  padding: 80px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
 }
-
-p::selection {
-    background: darkblue;
-    color: darkblue;
-}
-
-
-@font-face {
-    font-family: Delicious; 
-    src: url("http://www.sololearn.com/uploads/fonts/Delicious-Roman.otf"); 
-} 
-@font-face { 
-    font-family: Delicious; 
-    font-weight: bold; 
-    src: url("http://www.sololearn.com/uploads/fonts/Delicious-Bold.otf"); 
-}
-h1{
-    font-family: Delicious, sans-serif; 
-    color:white;
-}
-
 
 
 body{
-       
-background: -moz-radial-gradient(circle, white 40%, lightblue50%, darkblue 70%); 
-    
-background: -webkit-radial-gradient(circle, white 40%, lightblue 50%, darkblue 70%); 
-    
-background: -ms-radial-gradient(circle, white 40%, lightblue 50%, darkblue 70%); 
+
+background-size : contain;
 
 }
